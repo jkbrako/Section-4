@@ -5,6 +5,40 @@ public class CalculatorTest {
     public static void main(String[] args) { 
         //Instantiate a Calculator object
         
+        Calculator calc = new Calculator();
+        calc.originalPrice = 10;
+        calc.findTotal();
+                
+        calc.originalPrice = 12;
+        calc.findTotal();
+                
+        
+        calc.originalPrice = 9;
+        calc.findTotal();
+                
+        
+
+        calc.originalPrice = 8;
+        calc.findTotal();
+                
+        
+        calc.originalPrice = 7;
+        calc.findTotal();
+                
+        
+        calc.originalPrice = 15;
+        calc.findTotal();
+                
+        
+        calc.originalPrice = 11;
+        calc.findTotal();
+                
+        
+        calc.originalPrice = 30;
+        calc.findTotal();
+                
+        
+                
         
         //Access the Calculator object's fields and methods
         //to find the total for each member of the birthday party
@@ -20,6 +54,7 @@ public class CalculatorTest {
         Person 7: $11
         Person 8: $30
         */
+        
         
     }
 }
