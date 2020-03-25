@@ -8,8 +8,29 @@ public class CalculatorTest {
        
        //Use the Calculator object and arguments supplied to findTotal()
        //to print the total for each person
-
+      System.out.print("Person 1: ");
+      calc.findTotal(10);
+      
+       System.out.print("Person 2: ");
+       calc.findTotal(12.0);
        
+       System.out.print("Person 3: ");
+       calc.findTotal(9.0);
+       
+       System.out.print("Person 4: ");
+       calc.findTotal(8);
+       
+       System.out.print("Person 5: ");
+       calc.findTotal(7);
+       
+       System.out.print("Alex: ");
+       calc.findTotal(15);
+       
+       System.out.print("Person 7: ");
+       calc.findTotal(11);
+       
+       System.out.print("Person 8: ");
+       calc.findTotal(30);
        
        /*This is what everyone owes before tax and tip:
        Person 1: $10
