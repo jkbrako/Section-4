@@ -17,6 +17,7 @@ public class CalculatorTest {
         calc.findTotal(30, "Forgetful");
 
         //Find and print the entire table's total, including tax and tip
-       
+        // Need  to add all "findTotal" values
+        calc.findTotal(102, "Total");
     } 
 }
