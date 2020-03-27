@@ -8,9 +8,13 @@ package com.example;
 
 public class NameMaker {
     
-    public static void main(String args[])
-    {
+    public static void main(String args[])  {
+        String firstName;
+        String middleName;
+        String lastName;
+        String fullName;
         
+        System.out.println();
     }
     
 }

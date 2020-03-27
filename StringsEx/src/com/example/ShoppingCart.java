@@ -11,9 +11,12 @@ package com.example;
  */
 public class ShoppingCart {
     public static void main (String[] args){
-        String custName = "Steve Smith";
+        String custName = "Steve Smith: ";
         String firstName;
-        int spaceIdx;
+        int spaceIdx = custName.indexOf(" ");
+        System.out.println(custName + spaceIdx);
+        firstName = custName.substring(0, 5);
+        System.out.println(firstName);
         
         // Get the index of the space character (" ") in custName. 
 
